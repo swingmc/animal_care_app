@@ -1,0 +1,115 @@
+name: animalCare
+description: animalCare Mobile App
+
+publish_to: 'none' 
+
+version: 2.1.2
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_vlc_player:
+    git:
+      url: https://github.com/swingmc/flutter_vlc_player.git
+      path: flutter_vlc_player
+      ref: master
+  chewie:
+  video_player: ^2.8.2
+  dio:
+  http:
+  dio_cookie_manager:
+  cookie_jar:
+  shared_preferences: ^2.1.0
+  wifi_scan:
+  connectivity:
+  fluttertoast:
+  qr_flutter: ^4.1.0
+  logger: ^1.4.0
+  firebase_crashlytics: ^3.3.3
+  json_annotation:
+  build_runner:
+  uuid: ^3.0.4
+  flutter_cache_manager:
+  cached_network_image:
+
+  page_transition: ^2.0.9
+  roundcheckbox: ^2.0.5
+  flutter_slidable:
+  image_picker:
+  intl: ^0.18.0
+  flutter_localizations:
+    sdk: flutter
+  intl_translation:
+  firebase_messaging:
+  firebase_core: ^2.14.0
+  image_cropper: ^1.4.0
+  flutter_image_cropper:
+  photo_view:
+  date_format: ^2.0.7
+  video_thumbnail: ^0.5.3
+  ffmpeg_kit_flutter:
+  popover: ^0.2.9
+  visibility_detector: ^0.2.2
+  google_maps_flutter:
+  location:
+
+  lottie:
+  photo_manager: ^2.6.0
+  path_provider: ^2.0.15
+  image_gallery_saver:
+  permission_handler:
+  provider:
+  event_bus: ^2.0.0
+  social_share_plugin: ^0.4.1+2
+  firebase_auth:
+  google_sign_in:
+  flutter_signin_button:
+  flutter_facebook_auth: 4.3.0
+  sign_in_with_apple: ^4.0.0
+  twitter_login:
+  firebase_auth_oauth:
+  flutter_local_notifications: ^9.0.0
+  device_info_plus:
+  flutter_timezone:
+  image:
+  share_plus: ^7.2.0
+  card_swiper : ^3.0.0
+  store_redirect: ^2.0.1
+  url_launcher: ^6.2.6
+  animated_text_kit: ^4.2.2
+  showcaseview: ^3.0.0
+  flutter_card_swiper: ^7.0.1
+  video_thumbnail_imageview: ^0.0.5
+  expandable_text: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner:
+  json_serializable:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/custom_marker.png
+    - assets/images/
+    - assets/animal/
+    - assets/images/login_and_register/
+    - assets/images/home/
+    - assets/images/user_center/
+    - assets/images/add_device/
+    - assets/images/video_detail/
+    - assets/images/service/
+    - assets/text/
+    - assets/images/equipment_management/
+    - assets/images/bottom_navigator/
+    - assets/images/bird_book/
+    - assets/images/explain_pop_image/
+    - assets/lottie/
+flutter_intl:
+  enabled: true
